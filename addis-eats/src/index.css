@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #ac7171;
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  margin: 0 0 10px;
+  font-size: 42px;
+}
+
+header p {
+  margin: 0;
+  font-size: 18px;
+  color: #caa1a1;
+}
+
+/* Menu title */
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Dish card */
+.dish {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 15px;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Dish name */
+.dish h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+/* Dish price */
+.dish p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
