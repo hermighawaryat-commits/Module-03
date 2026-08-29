@@ -1,0 +1,17 @@
+.footer {
+  height: 45px;
+  width: 100%;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: green;
+  color: white;
+  border-top: 8px solid white ;
+}
+
+.footer p {
+  margin: 0;
+}

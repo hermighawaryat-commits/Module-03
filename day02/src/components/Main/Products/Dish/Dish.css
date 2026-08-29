@@ -1,0 +1,59 @@
+.dish {
+  background-color: yellow;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.dish-image {
+  height: 110px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.dish-image h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.dish-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin-top: auto;
+}
+
+.category {
+  font-size: 14px;
+}
+
+.price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.spicy {
+  white-space: nowrap;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.count{
+  background-color: rgb(253, 249, 249);
+  color: black;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  padding-bottom: 5px;
+}
+
+.add-to-cart{
+  background-color: green;
+  color: black;
+  width: 100px;
+  height: 25px;
+  padding: 5px;
+  padding-bottom: 5px;
+}
