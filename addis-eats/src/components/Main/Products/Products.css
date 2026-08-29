@@ -1,0 +1,12 @@
+.products {
+  width: 100%;
+  min-height: calc(100vh - 30px);
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 8px;
+  padding: 8px;
+
+  background-color: green;
+}

@@ -1,0 +1,46 @@
+.dish {
+  background-color: #ffff4d;
+  min-height: 50px;
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.dish-image {
+  height: 110px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f5f5f5;
+}
+
+.dish-image h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.dish-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin-top: auto;
+}
+
+.category {
+  font-size: 14px;
+}
+
+.price {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.spicy {
+  white-space: nowrap;
+  margin-left: 10px;
+  font-weight: bold;
+}

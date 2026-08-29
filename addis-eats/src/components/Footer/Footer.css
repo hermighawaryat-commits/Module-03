@@ -1,0 +1,20 @@
+.footer {
+  height: 45px;
+  width: 106%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: green;
+  color: white;
+  border-top: 5px solid white ;
+}
+
+.footer  {
+  margin: 0;
+
+}
+.h2{
+  
+}

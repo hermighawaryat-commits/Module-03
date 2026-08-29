@@ -4,7 +4,7 @@ import Card from "./Card/Card";
 import Dish from "./Dish/Dish";
 import "./Products.css";
 
-function Products({ setTotalItems }) {
+function Products() {
   const category = "Main";
   
 
