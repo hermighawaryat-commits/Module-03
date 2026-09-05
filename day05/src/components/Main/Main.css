@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  flex: 0 0 200px;
+}
+
+.products {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}

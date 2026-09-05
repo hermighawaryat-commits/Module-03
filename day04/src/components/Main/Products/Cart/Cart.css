@@ -1,0 +1,15 @@
+.cart {
+  width: 20%;
+  min-height: calc(100vh - 45px);
+
+  padding: 20px;
+
+  background-color: green;
+  color: white;
+
+  border-right: 8px solid white;
+}
+
+.cart h2 {
+  margin-top: 0;
+}

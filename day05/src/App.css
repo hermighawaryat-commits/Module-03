@@ -1,0 +1,42 @@
+.app {
+  min-height: 100vh;
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* RIGHT SIDEBAR */
+
+.right-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* CART */
+
+.cart {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.cart h2 {
+  margin-top: 0;
+}
+
+.cart p {
+  margin: 10px 0;
+}
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+  .page-layout {
+    grid-template-columns: 1fr;
+  }
+}

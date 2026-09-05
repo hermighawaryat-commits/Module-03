@@ -1,0 +1,33 @@
+.products {
+  padding: 20px;
+  width: 100%;
+}
+
+.category-bar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.category-button {
+  flex: 1;
+  padding: 14px;
+
+  border: none;
+  cursor: pointer;
+
+  font-size: 16px;
+}
+
+.category-button.active {
+  background-color: green;
+  color: white;
+}
+
+.dish-list {
+  display: grid;
+
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  gap: 16px;
+}
